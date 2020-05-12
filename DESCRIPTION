@@ -1,0 +1,11 @@
+Package: PhePrediction
+Title: Phenotype Prediction
+Version: 0.0.0
+Authors@R: person("Xinyao", "Sun", email = "sunxy28@mail2.sysu.edu.cn", role = c("aut", "cre"))
+Description: Constructing mouse trait prediction model under the nonlinear system based on the SNP and phenotype space.
+Depends: R (>= 3.6.0)
+Imports: openxlsx, data.table, dplyr, stringr, glmnet, lme4, sjPlot, lmerTest, psych, rpart, doParallel, kernlab, caret
+License: everyone
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
